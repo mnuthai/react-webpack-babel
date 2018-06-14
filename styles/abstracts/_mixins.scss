@@ -1,0 +1,10 @@
+// All mixins defined here will be automatically
+// available to all scss files thanks to
+// 'sass-resources-loader'
+
+@mixin button($color) {
+  background-color: $color;
+  border-radius: 51px;
+  color: white;
+  padding: 5px;
+}
